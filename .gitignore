@@ -329,4 +329,4 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 
-Seq.App.Jira/Seq.App.Jira.Tests/config.json
+Seq.App.Jira/Seq.App.Jira.Issue.Tests/config.json

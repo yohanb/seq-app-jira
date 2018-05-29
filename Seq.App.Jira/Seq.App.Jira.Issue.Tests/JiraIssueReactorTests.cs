@@ -6,7 +6,7 @@ using Seq.Apps;
 using Seq.Apps.LogEvents;
 using Xunit;
 
-namespace Seq.App.Jira.Tests
+namespace Seq.App.Jira.Issue.Tests
 {
     public class JiraIssueReactorTests
     {
@@ -27,7 +27,7 @@ namespace Seq.App.Jira.Tests
         [Fact]
         public void Test1()
         {
-            _reactor.JiraIssueType = "Bug";
+            _reactor.JiraIssueType = "Story";
             _reactor.On(new Event<LogEventData>("eventid", 1, DateTime.UtcNow, new LogEventData
             {
                 Id = "event_id",

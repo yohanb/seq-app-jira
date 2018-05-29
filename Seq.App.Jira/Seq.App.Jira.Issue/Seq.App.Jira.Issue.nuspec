@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>Seq.App.Jira.Issue</id>
+        <version>1.0.5</version>
+        <authors>yohanb</authors>
+        <owners>yohanb</owners>
+        <licenseUrl>https://github.com/yohanb/seq-app-jira/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/yohanb/seq-app-jira</projectUrl>
+        <iconUrl>https://imgur.com/a/bWUzRAC</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Seq App to creates issues in a Jira project.</description>
+        <tags>seq-app Seq Jira Seq.App Seq.App.Jira.Issue</tags>
+    </metadata>
+    <files>
+        <file src="bin\Release\Seq.App.Jira.Issue.dll" target="lib\net452" />
+        <file src="bin\Release\Newtonsoft.Json.dll" target="lib\net452" />
+        <file src="bin\Release\Restsharp.dll" target="lib\net452" />
+    </files>
+</package>
