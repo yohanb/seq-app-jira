@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seq.App.Jira", "Seq.App.Jira\Seq.App.Jira.csproj", "{EAB7309E-8364-4FCD-AB80-1EB8945EC033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seq.App.Jira.Tests", "Seq.App.Jira.Tests\Seq.App.Jira.Tests.csproj", "{8459DCB8-45F2-47A3-8B7D-284C97719854}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAB7309E-8364-4FCD-AB80-1EB8945EC033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB7309E-8364-4FCD-AB80-1EB8945EC033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB7309E-8364-4FCD-AB80-1EB8945EC033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB7309E-8364-4FCD-AB80-1EB8945EC033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8459DCB8-45F2-47A3-8B7D-284C97719854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8459DCB8-45F2-47A3-8B7D-284C97719854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8459DCB8-45F2-47A3-8B7D-284C97719854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8459DCB8-45F2-47A3-8B7D-284C97719854}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
