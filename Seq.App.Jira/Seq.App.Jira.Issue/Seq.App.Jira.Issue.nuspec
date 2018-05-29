@@ -2,7 +2,7 @@
 <package >
     <metadata>
         <id>Seq.App.Jira.Issue</id>
-        <version>1.0.6</version>
+        <version>1.0.8</version>
         <authors>yohanb</authors>
         <owners>yohanb</owners>
         <licenseUrl>https://github.com/yohanb/seq-app-jira/blob/master/LICENSE</licenseUrl>

@@ -1,0 +1,12 @@
+{
+	"@t": "2018-05-29T19:59:00.1433598Z",
+	"@mt": "The event {EventId} could not be sent to {AppInstanceTitle}.",
+	"@m": "The event event-156cf23dc58508d59cc9690000000000 could not be sent to Create Bug.",
+	"@i": "e285b3dc",
+	"@l": "Error",
+	"@x": "System.Exception: Exception of type 'System.Exception' was thrown.\r\n   at Seq.App.Jira.Issue.JiraIssueReactor.On(Event`1 event)\r\n   at Seq.Apps.GenericHost.AppHost.<SendAsync>d__19.MoveNext()",
+	"EventId": "event-156cf23dc58508d59cc9690000000000",
+	"AppInstanceTitle": "Create Bug",
+	"AppId": "hostedapp-129",
+	"AppInstanceId": "appinstance-131"
+}

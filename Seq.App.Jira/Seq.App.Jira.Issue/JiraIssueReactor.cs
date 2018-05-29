@@ -131,7 +131,7 @@ namespace Seq.App.Jira.Issue
                 writer.Write(eventJson);
                 writer.Flush();
 
-                request.AddFileBytes("file", stream.ToArray(), "event.json");
+                request.AddFileBytes("file", stream.ToArray(), $"{@event.Id}.json");
 
                 return client.Execute(request);
             }

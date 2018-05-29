@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Seq.Apps;
@@ -25,15 +27,13 @@ namespace Seq.App.Jira.Issue.Tests
         private readonly JiraIssueReactor _reactor;
 
         [Fact]
-        public void Test1()
+        public void Given_Story_Issue_Type_When_Reacting_On_Seq_Event_Then_Dont_throw()
         {
             _reactor.JiraIssueType = "Story";
-            _reactor.On(new Event<LogEventData>("eventid", 1, DateTime.UtcNow, new LogEventData
-            {
-                Id = "event_id",
-                RenderedMessage = "This is the rendered message.",
-                Exception = new Exception("1 2 1 2, this is just a test.").ToString()
-            }));
+            
+            var @event = EventHelper.CreateEventFromFile("event-9ebc39fec59e08d5f9cf690000000000.json");
+
+            _reactor.On(@event);
         }
     }
 }
